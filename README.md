@@ -1,4 +1,4 @@
-# Windows PC Optimization & Debloating Lab
+# Windows PC Optimization & Debloating Lab 💻
 
 ## Overview
 This lab documents the process of optimizing and deep-cleaning a Windows 10/11 system using both manual techniques and the Chris Titus Tech Windows Utility. The goal was to reduce background processes, lower memory usage, improve system responsiveness, and gain better control over privacy and Windows updates.
