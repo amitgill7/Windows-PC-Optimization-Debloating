@@ -24,7 +24,7 @@ This lab documents the process of optimizing and deep-cleaning a Windows 10/11 s
 ---
 
 ## System Information
-- Operating System: Windows 10 / Windows 11
+- Operating System: Windows 11
 - Optimization Method: PowerShell-based system tuning
 - Permissions: Administrator
 
