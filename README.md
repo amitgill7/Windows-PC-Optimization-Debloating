@@ -35,6 +35,10 @@ This lab documents the process of optimizing and deep-cleaning a Windows 10/11 s
 ### Step 1: Baseline System Analysis
 - Recorded memory usage, CPU usage, and background process count using Task Manager
 - Captured screenshots of system state before optimization
+<img width="926" height="560" alt="image" src="https://github.com/user-attachments/assets/2691979f-d5fb-4c0b-bd5b-ee7743918c86" />
+<img width="926" height="567" alt="image" src="https://github.com/user-attachments/assets/ce6cbd6d-e4a0-4b05-89cd-34db6b6d8b02" />
+
+
 
 ### Step 2: Utility Execution
 - Launched PowerShell as Administrator
