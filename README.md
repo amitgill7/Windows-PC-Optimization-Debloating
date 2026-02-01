@@ -130,8 +130,26 @@ This lab documents the manual optimization and deep cleaning of a Windows 11 sys
 - Applied registry-based telemetry restrictions
 <img width="1386" height="908" alt="image" src="https://github.com/user-attachments/assets/bdaa09cc-8ab9-4d37-82b5-271fe1e18418" />
 
+## Step 11: Final Results & Before/After Comparison
+- After applying all optimizations (bloatware removal via PowerShell, disabling non-essential services, cleaning up scheduled tasks/telemetry, and any additional tweaks like privacy settings or startup management), here's the impact on system performance.
+<img width="1022" height="762" alt="image" src="https://github.com/user-attachments/assets/59f0dc84-c238-4909-9f6c-424a3f6984dd" />
+<img width="1031" height="765" alt="image" src="https://github.com/user-attachments/assets/092efd0d-d0f9-41fa-bf79-0e945e11fe52" />
+
+---
+
+### Before Optimization : 
+Before: ~9% CPU, 149 processes, small spikes visible*
+
+### After Optimization :  
+After: 2% CPU, only 57 processes, ultra-flat graphs*
 
 
+#### Summary
+- Process count dropped by over 60%, directly from removing bloat and disabling telemetry/maintenance tasks — this reduces context switching and minor CPU wake-ups.
+- CPU utilization is now consistently lower at idle, with almost no spikes.
+- Memory stayed impressively low (2.3 GB idle is top-tier for Windows 11 with 32 GB total).
+- On high-end hardware like the Ryzen 9800X3D, the system feels "overkill smooth" — perfect for gaming/productivity with zero background interference.
+- Trade-offs: None noticeable in daily use; lost features (e.g., some UWP apps, full telemetry) were intentional and replaced with alternatives where needed.
 
 
 
