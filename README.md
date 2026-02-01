@@ -1,4 +1,4 @@
-# Windows PC Optimization & Debloating Lab 💻
+# Windows PC Optimization & Debloating 💻
 
 ## Overview
 This lab documents the manual optimization and deep cleaning of a Windows 11 system without the use of third-party automation tools. All changes were performed using native Windows utilities, PowerShell commands, system configuration tools, and registry settings to improve performance, reduce background processes, and enhance system responsiveness.
