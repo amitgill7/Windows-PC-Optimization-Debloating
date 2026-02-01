@@ -1,48 +1,52 @@
 # Windows PC Optimization & Debloating Lab 💻
 
 ## Overview
-This lab documents the process of optimizing and deep-cleaning a Windows 10/11 system using both manual techniques and the Chris Titus Tech Windows Utility. The goal was to reduce background processes, lower memory usage, improve system responsiveness, and gain better control over privacy and Windows updates.
+This lab documents the manual optimization and deep cleaning of a Windows 11 system without the use of third-party automation tools. All changes were performed using native Windows utilities, PowerShell commands, system configuration tools, and registry settings to improve performance, reduce background processes, and enhance system responsiveness.
 
 ---
 
 ## Objectives
 - Reduce RAM and CPU usage
-- Remove unnecessary Windows bloatware
+- Remove unnecessary preinstalled applications
 - Optimize startup and background services
 - Improve boot time and system responsiveness
-- Enhance privacy and telemetry control
-- Document measurable before/after results
+- Enhance system privacy and control over updates
+- Demonstrate understanding of Windows system internals
 
 ---
 
 ## Tools Used
 - Windows Task Manager
-- Windows Disk Cleanup
 - PowerShell (Administrator)
-- Chris Titus Tech Windows Utility (WinUtil)
+- Services.msc
+- Task Scheduler
+- Disk Cleanup
+- System Configuration (msconfig)
+- Registry Editor
+- Windows Settings
 
 ---
 
 ## System Information
 - Operating System: Windows 11
-- Optimization Method: PowerShell-based system tuning
 - Permissions: Administrator
+- Optimization Type: Manual system tuning
 
 ---
 
 ## Methodology
 
 ### Step 1: Baseline System Analysis
-- Recorded memory usage, CPU usage, and background process count using Task Manager
+- Recorded CPU usage, memory usage, and background process count using Task Manager
 - Captured screenshots of system state before optimization
-<img width="926" height="560" alt="image" src="https://github.com/user-attachments/assets/2691979f-d5fb-4c0b-bd5b-ee7743918c86" />
-<img width="926" height="567" alt="image" src="https://github.com/user-attachments/assets/ce6cbd6d-e4a0-4b05-89cd-34db6b6d8b02" />
+<img width="926" height="560" alt="image" src="https://github.com/user-attachments/assets/2cac594b-a9a7-4fc9-ac7c-cd9c9303769f" />
+<img width="926" height="567" alt="image" src="https://github.com/user-attachments/assets/61f803ed-7c55-432a-960d-b3610c4cacf9" />
 
+---
 
+### Step 2: System Safety Measures
+- Verified Windows version and administrator access
+- Created a system restore point before applying changes
+<img width="852" height="480" alt="image" src="https://github.com/user-attachments/assets/30a06551-d684-49ab-b21f-802ad2fc3821" />
 
-### Step 2: Utility Execution
-- Launched PowerShell as Administrator
-- Executed the Chris Titus Windows Utility using:
-  ```powershell
-  iwr -useb https://christitus.com/win | iex
 
