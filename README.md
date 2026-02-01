@@ -49,4 +49,80 @@ This lab documents the manual optimization and deep cleaning of a Windows 11 sys
 - Created a system restore point before applying changes
 <img width="852" height="480" alt="image" src="https://github.com/user-attachments/assets/30a06551-d684-49ab-b21f-802ad2fc3821" />
 
+---
+
+### Step 3: Check Windows Update Status
+- Windows updates patch known vulnerabilities:
+- Helps rotects against malware, ransomware, and exploits:
+<img width="1200" height="634" alt="image" src="https://github.com/user-attachments/assets/b5e0682c-9ce6-43d3-a83a-ef31506a4a0f" />
+
+---
+
+### Step 4: Removing Preinstalled Applications (Debloating)
+- Used PowerShell to list installed UWP applications:
+- Removed non-essential apps:
+- Verified removal and ensured essential system apps remained intact
+<img width="1118" height="839" alt="image" src="https://github.com/user-attachments/assets/991f2039-56e2-4dae-be98-ec267db43d79" />
+<img width="1629" height="886" alt="image" src="https://github.com/user-attachments/assets/151e9bed-56e6-4041-ace3-6c80bdd03b4d" />
+
+---
+
+## Step 5: Startup Program Optimization
+- Reviewed startup applications using Task Manager
+- Disabled unnecessary startup programs
+- Reduced boot-time load
+
+---
+
+## Step 6: Windows Service Optimization
+
+### Objective
+- Identified non-essential services using services.msc
+- Changed startup type for selected services to Manual or Disabled
+- Ensured critical system services remained untouched
+
+### Services Modified
+- **Connected User Experiences and Telemetry (Diagnostic Tracking Service)** – Disabled  
+- **Windows Search** (optional) – Set to Manual or Disabled  
+- **SysMain (Superfetch)** – Disabled  
+
+### Result
+- Reduced background service activity
+- Improved overall system responsiveness
+
+---
+
+## Step 7: Scheduled Task Cleanup
+- Opened Task Scheduler
+- Disabled unnecessary telemetry and data collection tasks
+- Reduced background task execution
+
+---
+
+## Step 8: Performance & Visual Tweaks
+- Opened **System Properties → Performance Options**
+- Disabled unnecessary animations and visual effects
+- Applied **High Performance** power plan
+
+### Result
+- Faster UI response
+- Improved system performance, especially on startup and multitasking
+
+---
+
+## Step 9: Storage & Memory Optimization
+- Performed Disk Cleanup
+- Cleared temporary files
+- Verified reduced disk usage
+
+---
+
+## Step 10: Privacy & Telemetry Reduction
+- Disabled advertising ID and tracking features
+- Limited diagnostic data collection via Windows Settings
+- Applied registry-based telemetry restrictions
+
+
+
+
 
