@@ -71,6 +71,7 @@ This lab documents the manual optimization and deep cleaning of a Windows 11 sys
 - Reviewed startup applications using Task Manager
 - Disabled unnecessary startup programs
 - Reduced boot-time load
+<img width="802" height="454" alt="image" src="https://github.com/user-attachments/assets/5b725a42-5d6b-4ab3-b994-f54d6902adc6" />
 
 ---
 
@@ -83,12 +84,13 @@ This lab documents the manual optimization and deep cleaning of a Windows 11 sys
 
 ### Services Modified
 - **Connected User Experiences and Telemetry (Diagnostic Tracking Service)** – Disabled  
-- **Windows Search** (optional) – Set to Manual or Disabled  
-- **SysMain (Superfetch)** – Disabled  
+- **Windows Search** (optional) – Set to Manual or Disabled    
 
 ### Result
 - Reduced background service activity
 - Improved overall system responsiveness
+<img width="1040" height="587" alt="image" src="https://github.com/user-attachments/assets/19b30e2f-3070-4d24-bf21-5477d7d37236" />
+<img width="1040" height="588" alt="image" src="https://github.com/user-attachments/assets/eb012d21-b9f5-43ca-b1ed-1f289d6f3ebe" />
 
 ---
 
@@ -96,6 +98,7 @@ This lab documents the manual optimization and deep cleaning of a Windows 11 sys
 - Opened Task Scheduler
 - Disabled unnecessary telemetry and data collection tasks
 - Reduced background task execution
+<img width="779" height="656" alt="image" src="https://github.com/user-attachments/assets/8e668250-3102-4899-9ba2-c6b1c8666a61" />
 
 ---
 
@@ -107,6 +110,8 @@ This lab documents the manual optimization and deep cleaning of a Windows 11 sys
 ### Result
 - Faster UI response
 - Improved system performance, especially on startup and multitasking
+<img width="836" height="603" alt="image" src="https://github.com/user-attachments/assets/46874558-e78a-4502-ba5c-b45dba6702a2" />
+<img width="1059" height="349" alt="image" src="https://github.com/user-attachments/assets/e3eb599b-2a9d-4ed6-ae2d-7df7ac72741d" />
 
 ---
 
@@ -114,6 +119,8 @@ This lab documents the manual optimization and deep cleaning of a Windows 11 sys
 - Performed Disk Cleanup
 - Cleared temporary files
 - Verified reduced disk usage
+<img width="464" height="455" alt="image" src="https://github.com/user-attachments/assets/0a367f0f-990c-407c-a861-1bbb1d7629a4" />
+<img width="1121" height="635" alt="image" src="https://github.com/user-attachments/assets/f4b71ad6-7fe2-4274-be87-72d474662414" />
 
 ---
 
@@ -121,6 +128,8 @@ This lab documents the manual optimization and deep cleaning of a Windows 11 sys
 - Disabled advertising ID and tracking features
 - Limited diagnostic data collection via Windows Settings
 - Applied registry-based telemetry restrictions
+<img width="1386" height="908" alt="image" src="https://github.com/user-attachments/assets/bdaa09cc-8ab9-4d37-82b5-271fe1e18418" />
+
 
 
 
