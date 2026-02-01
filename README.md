@@ -148,6 +148,7 @@ After: 2% CPU, only 57 processes, ultra-flat graphs*
 - Process count dropped by over 60%, directly from removing bloat and disabling telemetry/maintenance tasks — this reduces context switching and minor CPU wake-ups.
 - CPU utilization is now consistently lower at idle, with almost no spikes.
 - Memory stayed impressively low (2.3 GB idle is top-tier for Windows 11 with 32 GB total).
+- Boot Time Impact: Optimizations noticeably improved startup speed.
 - On high-end hardware like the Ryzen 9800X3D, the system feels "overkill smooth" — perfect for gaming/productivity with zero background interference.
 - Trade-offs: None noticeable in daily use; lost features (e.g., some UWP apps, full telemetry) were intentional and replaced with alternatives where needed.
 
